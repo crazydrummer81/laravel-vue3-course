@@ -1,6 +1,8 @@
 import './bootstrap';
-import { createApp } from '../../node_modules/vue/dist/vue.esm-bundler.js';
-import PostsIndex from '@/components/posts/index.vue';
+import 'flowbite';
+import { createApp } from 'vue';
+import PostsIndex from '@/components/posts/Index.vue';
+
 
 const app = createApp();
 app.component('posts-index', PostsIndex);
